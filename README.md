@@ -17,8 +17,8 @@ A Great NPM Module For Youtube Video DOwnloader with only keywords!!!
 <br>
 
 ### Topics
-* [Create Variable](create-variable)
-* [A Simple Discord Bot](a-simple-discord-bot)
+* [Create Variable](#create-variable)
+* [A Simple Discord Bot](#a-simple-discord-bot)
 * [Playing Music](#playing-music)
 * [Getting Infos](#getting-infos)
 
