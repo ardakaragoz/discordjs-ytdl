@@ -1,0 +1,36 @@
+{
+  "name": "discordjs-ytdl",
+  "version": "1.0.0",
+  "description": "Great module for youtube video downloader for Discord Bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardakaragoz/discordjs-ytdl.git"
+  },
+  "keywords": [
+    "youtube-dl",
+    "ytdl",
+    "ytdl-core",
+    "yt-dl",
+    "video-downloader",
+    "youtube",
+    "video",
+    "downloader",
+    "discord.js",
+    "rhino-inc",
+    "discordjs-ytdl"
+  ],
+  "author": "Arda Karagoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardakaragoz/discordjs-ytdl/issues"
+  },
+  "homepage": "https://github.com/ardakaragoz/discordjs-ytdl#readme",
+  "dependencies": {
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^4.1.6"
+  }
+}
