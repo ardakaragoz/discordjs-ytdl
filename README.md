@@ -43,7 +43,7 @@ For Example You Can Make A Music Command Like This:
 const Discord = require('discord.js') // discord.js modülü tanımlıyoruz.
 const client = new Discord.Client() // client tanımalamsı
 
-client.login('NzI3MDgyMDI0NzExNjE4NjAx.Xvmp5w.PogtQTKQiFc6ybQKfvPvPrT3d4k')
+client.login('TOKEN')
 
 client.on('message', async message => {
     // Voice only works in guilds, if the message does not come from a guild,
