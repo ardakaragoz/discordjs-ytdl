@@ -1,6 +1,6 @@
 {
   "name": "discordjs-ytdl",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Great module for youtube video downloader for Discord Bots",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,6 @@
   "homepage": "https://github.com/ardakaragoz/discordjs-ytdl#readme",
   "dependencies": {
     "simple-youtube-api": "^5.2.1",
-    "ytdl-core": "^4.1.6"
+    "ytdl-core": "^4.4.5"
   }
 }

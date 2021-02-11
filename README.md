@@ -6,6 +6,12 @@ A Great NPM Module For Youtube Video DOwnloader with only keywords!!!
 ## Purpose of Module
 <code>This module is a way to use ytdl-core but with this module you can search videos without inputting any url only with the keyword whatever you want! This module is for Discord Bots.</code>
 
+## 1.6.0 Update
+```
+- thumbnail() function added.
+- Updated version of ytdl-core
+```
+
 > Rhino Inc. is a small company that was created by Arda Karagöz. Rhino Inc. contains Coding programs, Code Projects, Discord Bots etc. Rhino Inc. has small enviroment to know but its knowledge by others will be increase in next months.
 
 > Arda Karagöz is a 15 year old Half Developer. I am from Turkey and I want to be a software engineer. I know a lot about JavaScript and Python and also I know C#, C++, Java, HTML and CSS. I am the founder of Rhino Inc. I created lots of projects but the bests are: Rhino Bot(About 800K Users 900 Guilds - The Most Useful Turkish Bot), rhino-api(This Module. Helps you in math problems and daily fun codes), MasterG Bot(A Great Private Discord Bot For Our Server), Mental Power Discord Bot Tutorial(It will go more than +40 Eps), Github Markdown Repo(Will be published in few weeks.) and more...
@@ -21,6 +27,7 @@ A Great NPM Module For Youtube Video DOwnloader with only keywords!!!
 * [A Simple Discord Bot](#a-simple-discord-bot)
 * [Playing Music](#playing-music)
 * [Getting Infos](#getting-infos)
+* [Thumbnails](#thumbnail)
 
 <br>
 
@@ -98,14 +105,24 @@ title.then(titlee => message.channel.send('VIDEO NAME: ' + titlee))
 - <PLAY>.title(keyword, api)
 - <PLAY>.channel(keyword, api)
 - <PLAY>.id(keyword, api)
+- <PLAY>.thumbnail(videoID)
 
+### Thumbnail
+NEW!!!
+
+You can get thumbnails of videos!
+
+```js
+let play = require('discordjs-ytdl')
+console.log(play.thumbnail('4w8Su0dRFAw'))
+```
 
 #### Support
 
 You Can Write Me For Wantings And Complains By
 
 >ahmetarda2006@hotmail.com.tr - via E-Mail
->`${FleeingRhino}`#1403 - via Discord
+>Rhino#5582 - via Discord
 >Issues On Github https://github.com/ardakaragoz/discordjs-ytdl/
 
 #### THANKS

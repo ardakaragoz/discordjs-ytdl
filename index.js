@@ -38,7 +38,15 @@ async function id(keyword, key) {
     return videos[0].id 
 }
 
+var searchURL = require('./thumb/url')
+
+function thumbnail(id) {
+    var searchUrl = searchURL + '/vi/' + id + '/maxresdefault.jpg'
+    return searchUrl
+}
+
 module.exports.play = rhino
 module.exports.id = id 
 module.exports.channel = channel 
-module.exports.title = title  
+module.exports.title = title
+module.exports.thumbnail = thumbnail

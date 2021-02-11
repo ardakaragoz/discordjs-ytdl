@@ -26,3 +26,7 @@ try {
 console.log(e)
 }
 });
+
+// THUMBNAIL
+const play = require('./index')
+console.log(play.thumbnail('4w8Su0dRFAw'))
